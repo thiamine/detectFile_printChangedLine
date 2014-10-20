@@ -1,7 +1,9 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
-2 info using npm@1.4.28
-3 info using node@v0.10.32
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info prestart detectFile_printChangedLine@0.0.0
 6 info start detectFile_printChangedLine@0.0.0
@@ -17,10 +19,10 @@
 10 error You can get their info via:
 10 error     npm owner ls detectFile_printChangedLine
 10 error There is likely additional logging output above.
-11 error System Darwin 13.4.0
-12 error command "node" "/usr/local/bin/npm" "start"
-13 error cwd /Users/thiamine/test/detectFile_printChangedLine
-14 error node -v v0.10.32
-15 error npm -v 1.4.28
+11 error System Windows_NT 6.1.7601
+12 error command "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+13 error cwd c:\Users\Taemin Kim\test\detectFile_printChangedLine
+14 error node -v v0.10.28
+15 error npm -v 1.4.9
 16 error code ELIFECYCLE
 17 verbose exit [ 1, true ]
